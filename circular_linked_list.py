@@ -60,4 +60,4 @@ if __name__ == "__main__":
     cLL.append(40)
     print(cLL)  # 200 100 10 20 30 40
     cLL.prepend(200)
-    print(cLL)  # 200 200 100 10 20 30 40 
+    print(cLL)  # 200 200 100 10 20 30 40
