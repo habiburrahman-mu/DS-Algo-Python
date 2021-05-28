@@ -51,8 +51,8 @@ if __name__ == "__main__":
     dll.append(2)
     dll.append(3)
     dll.append(5)
-    print(dll.print_list())
+    print(dll.print_list())  # 10 1 2 3
     dll.prepend(9)
     dll.prepend(8)
     dll.prepend(7)
-    print(dll.print_list())
+    print(dll.print_list())  # 7 8 9 10 1 2 3 
