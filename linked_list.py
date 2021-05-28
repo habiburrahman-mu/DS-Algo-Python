@@ -3,9 +3,11 @@ class Node:
 		self.data = data
 		self.next = next
 
+
 class LinkedList:
 	def __init__(self):
 		self.head = None
+
 	def insert_at_beginning(self, data):
 		node = Node(data, self.head)
 		self.head = node
@@ -28,14 +30,14 @@ class LinkedList:
 		count = 0
 		itr = self.head
 		while itr:
-			count+=1
+			count += 1
 			itr = itr.next
 		return count
 
 	def remove_at(self, index):
-		if index<0 or index>=self.get_length():
+		if index < 0 or index >= self.get_length():
 			raise Exception("Invalid index")
-		if index==0:
+		if index == 0:
 			self.head = self.head.next
 			return
 		count = 0
@@ -46,8 +48,9 @@ class LinkedList:
 				break
 			itr = itr.next
 			count += 1
+
 	def insert_at(self, index, data):
-		if index<0 or index>=self.get_length():
+		if index < 0 or index >= self.get_length():
 			raise Exception("Invalid Index")
 		if index == 0:
 			self.insert_at_beginning()
@@ -76,18 +79,19 @@ class LinkedList:
 			itr = itr.next
 		print(listr)
 
+
 if __name__ == '__main__':
 	ll = LinkedList()
 	ll.insert_values(['A', 'B', 'C', 'D', 'E'])
 	ll.insert_at_end('F')
 	ll.insert_at_beginning('a')
-	ll.print() # a A B C D E F
+	ll.print()  # a A B C D E F
 	ll.remove_at(2)
-	ll.print() # a A C D E F
+	ll.print()  # a A C D E F
 	ll.insert_at(3, 'Z')
-	ll.print() # a A C Z D E F
+	ll.print()  # a A C Z D E F
 	ll.insert_at(3, 'X')
-	ll.print() #a A C X Z D E F
+	ll.print() # a A C X Z D E F
 	print("Length of linked list: ", ll.get_length())
 	# Length of linked list:  8
 
