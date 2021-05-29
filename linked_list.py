@@ -53,7 +53,7 @@ class LinkedList:
 		if index < 0 or index >= self.get_length():
 			raise Exception("Invalid Index")
 		if index == 0:
-			self.insert_at_beginning()
+			self.insert_at_beginning(data)
 			return
 
 		count = 0
