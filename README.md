@@ -32,3 +32,17 @@ Implementation of different data structures and algorithms using Python
 ![Circular Linked List](img/singly_circular_linked_list.jpg)
 
 - [circular_linked_list.py](circular_linked_list.py)
+
+- - -
+
+### Stack
+*A stack is an Abstract Data Type (ADT), commonly used in most programming languages. It is named stack as it behaves like a real-world stack, for example – a deck of cards or a pile of plates, etc. Likewise, Stack ADT allows all data operations at one end only. At any given time, we can only access the top element of a stack. This feature makes it LIFO data structure. LIFO stands for Last-in-first-out. Here, the element which is placed (inserted or added) last, is accessed first. In stack terminology, insertion operation is called PUSH operation and removal operation is called POP operation*
+
+<p align="center">
+  <img src="img/stack.png">
+</p>
+
+- [stack_.py.py](stack_.py.py)
+
+
+
