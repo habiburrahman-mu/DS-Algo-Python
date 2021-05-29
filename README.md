@@ -42,7 +42,7 @@ Implementation of different data structures and algorithms using Python
   <img src="img/stack.png">
 </p>
 
-- [stack_.py.py](stack_.py.py)
+- [stack_.py](stack_.py)
 
 
 
