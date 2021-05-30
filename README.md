@@ -62,6 +62,20 @@ Implementation of different data structures and algorithms using Python
 
 - - -
 
-## Algorithms
+## Searching Algorithms
 
+### Linear Search
 
+*Linear search or sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched.*
+
+- [linear_search.py](linear_search.py)
+
+- - -
+
+### Binary Search
+
+*Binary Search is a searching algorithm for finding an element's position in a sorted array. In this approach, the element is always searched in the middle of a portion of an array. **Binary search can be implemented only on a sorted list of items. If the elements are not sorted already, we need to sort them first.***
+
+- [binary_search_iterative.py](binary_search_iterative.py)
+
+- - -
