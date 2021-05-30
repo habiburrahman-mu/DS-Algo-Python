@@ -3,6 +3,8 @@ Implementation of different data structures and algorithms using Python
 
 - - -
 
+## Data Structures
+
 ### Array
 *Python does not have built-in support for Arrays, but Python Lists can be used instead.*
 
@@ -58,5 +60,8 @@ Implementation of different data structures and algorithms using Python
 - [queue_.py](queue_.py)
 - [queue_list_deque.py](queue_list_deque.py)
 
+- - -
+
+## Algorithms
 
 
