@@ -79,5 +79,6 @@ Implementation of different data structures and algorithms using Python
 - [binary_search_iterative.py](binary_search_iterative.py)
 - [Binary Search Implementation using Recursion](binary_search_recursive.py)
 - [Find the closest number using Binary Search](closest_number_binary_search.py)
+- [Find the first entry Binary Search](get_first_entry.py)
 
 - - -
